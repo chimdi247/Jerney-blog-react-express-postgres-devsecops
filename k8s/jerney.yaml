@@ -200,7 +200,7 @@ spec:
               echo "DB is ready!"
       containers:
         - name: backend
-          image: ghcr.io/chimdi247/Jerney/jerney-backend:75da1da
+          image: ghcr.io/chimdi247/Jerney-blog-react-express-postgres-devsecops/jerney-backend:2dbc766
           ports:
             - containerPort: 5000
               protocol: TCP
@@ -307,7 +307,7 @@ spec:
           effect: "NoSchedule"
       containers:
         - name: frontend
-          image: ghcr.io/chimdi247/Jerney/jerney-frontend:75da1da
+          image: ghcr.io/chimdi247/Jerney-blog-react-express-postgres-devsecops/jerney-frontend:2dbc766
           ports:
             - containerPort: 8080
               protocol: TCP

@@ -26,7 +26,7 @@ metadata:
 spec:
   ingressClassName: alb
   rules:
-    - host: raph247.online
+    - host: www.raph247.online
       http:
         paths:
           - path: /
